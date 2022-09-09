@@ -2,7 +2,7 @@ const listaDeDestino = [];
 let total = 2;
 
 do{
-    let ingreso= prompt ("ingrese sus destinos (Podes elejir hasta dos opciones) ")
+    let ingreso= prompt ("ingrese sus destinos (Podes elegir hasta dos opciones) ")
    listaDeDestino.push(ingreso.toUpperCase());
    console.log(listaDeDestino.length);
 }while (listaDeDestino.length!=total)
