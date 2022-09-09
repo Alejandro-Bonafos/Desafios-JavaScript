@@ -16,7 +16,7 @@ const calculador = () => {
         let valorPorCuota = (totalconcuotas / cantidadCuotas).toFixed(2) 
         confirm ("Al acceder al plan de cuotas se te sumara un 15% al precio final. Deseas continuar?")
 
-        document.write( "Tu eleccion fue " + cantidadCuotas + "  y tu presupuesto es de  $" + presupuesto + ". Abonando en " + cantidadCuotas + " el precio de cada cuota es de $" + valorPorCuota + " ya que cuenta con un recargo del 15% en el total. Te Quedaria en un total de  $" + totalconcuotas + " FELICIDADES!.  Ahora decinos, a donde te gustaria viajar? Podes elejir hasta dos opciones" )
+        document.write( "Tu eleccion fue " + cantidadCuotas + "  y tu presupuesto es de  $" + presupuesto + ". Abonando en " + cantidadCuotas + " el precio de cada cuota es de $" + valorPorCuota + " ya que cuenta con un recargo del 15% en el total. Te Quedaria en un total de  $" + totalconcuotas + " Ahora decinos, a donde te gustaria viajar? Podes elejir hasta dos opciones" )
     }
     
     else {
