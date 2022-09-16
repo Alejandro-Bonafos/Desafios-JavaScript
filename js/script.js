@@ -28,7 +28,7 @@ const calculador = () => {
 
 calculador()
 
-debugger
+
 
 
 
